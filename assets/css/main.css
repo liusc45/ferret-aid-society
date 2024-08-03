@@ -78,7 +78,9 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #ffffff; }
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(240,231,242,1) 100%);
+}
   body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
